@@ -21,17 +21,18 @@
     L10, L11, L12, L13, L14, L15,           R10, R11, R12, R13, R14, R15, \
     L20, L21, L22, L23, L24, L25,           R20, R21, R22, R23, R24, R25, \
     L30, L31, L32, L33, L34, L35, LT4, RT4, R30, R31, R32, R33, R34, R35, \
-                        LT1, LT2, LT3, RT3, RT2, RT1 \
+                        LT1, LT2, LT3, RT3, RT2, RT1, \
+    LX0, LX1, LX2, LX3,                     RX0, RX1, RX2, RX3\
     ) \
     { \
-        { L00, L01, L02, L03, L04, L05 }, \
-        { L10, L11, L12, L13, L14, L15 }, \
-        { L20, L21, L22, L23, L24, L25 }, \
-        { L30, L31, L32, L33, L34, L35 }, \
-        { KC_NO, KC_NO, LT4, LT1, LT2, LT3 }, \
-        { R05, R04, R03, R02, R01, R00 }, \
-        { R15, R14, R13, R12, R11, R10 }, \
-        { R25, R24, R23, R22, R21, R20 }, \
-        { R35, R34, R33, R32, R31, R30 }, \
-        { KC_NO, KC_NO, RT4, RT1, RT2, RT3 } \
+        { L00, L01, L02, L03, L04, L05, LX0 }, \
+        { L10, L11, L12, L13, L14, L15, LX1 }, \
+        { L20, L21, L22, L23, L24, L25, LX2 }, \
+        { L30, L31, L32, L33, L34, L35, LX3 }, \
+        { KC_NO, KC_NO, LT4, LT1, LT2, LT3, KC_NO }, \
+        { R05, R04, R03, R02, R01, R00, RX0 }, \
+        { R15, R14, R13, R12, R11, R10, RX1 }, \
+        { R25, R24, R23, R22, R21, R20, RX2 }, \
+        { R35, R34, R33, R32, R31, R30, RX3 }, \
+        { KC_NO, KC_NO, RT4, RT1, RT2, RT3, KC_NO } \
     }
